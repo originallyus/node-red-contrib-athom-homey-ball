@@ -1,0 +1,25 @@
+{
+  "name": "node-red-contrib-athom-homey",
+  "version": "0.0.1",
+  "description": "Based on official athom-api NPM package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-red",
+    "athom",
+    "homey"
+  ],
+  "author": "Originally US <hello@originally.us>",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "athom-homey": "index.js"
+    }
+  },
+  "dependencies": {
+    "athom-api": "^2.0.24",
+    "ip": "^1.1.5"
+  }
+}
