@@ -13,7 +13,7 @@ or
 
 Change your working directory to your node red installation. Usually it's in ~/.node-red.
 
-    $ npm install node-red-contrib-athom-homey
+    $ npm install node-red-contrib-athom-homey-ball
     
 
 
